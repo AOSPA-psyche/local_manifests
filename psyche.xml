@@ -27,5 +27,5 @@
     <project path="vendor/extra" name="vendor_extra" remote="flicker-dev" />
     <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="flicker-dev" />
     <project path="vendor/xiaomi/psyche" name="vendor_xiaomi_psyche" remote="psyche-gitlab" />
-
+    <project path="vendor/xiaomi/psyche-firmware" name="vendor_xiaomi_psyche-firmware" remote="psyche-gitlab" />
 </manifest>
