@@ -6,7 +6,7 @@
       revision="sixteen" />
 
   <remote  name="psyche-gitlab"
-      fetch="https://gitlab.com/mtkpapa"
+      fetch="git@gitlab.com:mtkpapa"
       revision="aosp-16" />
 
   <remote  name="aospa-psyche"
