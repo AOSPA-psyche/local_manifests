@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="flicker-dev"
-      fetch="git@github.com:Flicker-Android-Devices"
-      revision="sixteen" />
-
   <remote  name="psyche-gitlab"
       fetch="git@gitlab.com:mtkpapa"
       revision="aosp-16" />
@@ -14,18 +10,18 @@
       revision="sixteen" />
 
     <!-- Device -->
-    <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="flicker-dev" />
+    <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="aospa-psyche" />
     <project path="device/xiaomi/psyche" name="device_xiaomi_psyche" remote="aospa-psyche" />
 
     <!-- Hardware -->
-    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="flicker-dev" />
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="aospa-psyche" revision="16" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" revision="sixteen" remote="flicker-dev" />
+    <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" revision="sixteen" remote="aospa-psyche" />
 
     <!-- Vendor -->
-    <project path="vendor/extra" name="vendor_extra" remote="flicker-dev" />
-    <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="flicker-dev" />
+    <project path="vendor/extra" name="vendor_extra" remote="aospa-psyche" />
+    <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="aospa-psyche" />
     <project path="vendor/xiaomi/psyche" name="vendor_xiaomi_psyche" remote="psyche-gitlab" />
     <project path="vendor/xiaomi/psyche-firmware" name="vendor_xiaomi_psyche-firmware" remote="psyche-gitlab" />
 </manifest>
