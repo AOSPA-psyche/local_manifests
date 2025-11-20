@@ -23,4 +23,6 @@
     <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" revision="aosp-16" remote="aospa-psyche" />
     <project path="vendor/xiaomi/psyche" name="vendor_xiaomi_psyche" remote="psyche-gitlab" />
     <project path="vendor/xiaomi/psyche-firmware" name="vendor-xiaomi-psyche-firmware" revision="main" remote="psyche-gitlab" />
+    <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera" remote="psyche-gitlab" />
+
 </manifest>
